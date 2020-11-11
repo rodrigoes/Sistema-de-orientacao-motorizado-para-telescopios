@@ -1,1 +1,1 @@
-# Sistema de orientação motorizado para telescopios
+# Sistema de orientação motorizado para telescópios
