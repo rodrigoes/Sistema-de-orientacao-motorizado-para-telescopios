@@ -1,0 +1,1 @@
+# Sistema-de-orienta-o-motorizado-para-telescopios
