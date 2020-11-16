@@ -1,5 +1,5 @@
 # Sistema de orientação motorizado para telescópios :telescope:
-> Status do Projeto:  :warning: Eem desenvolvimento
+> Status do Projeto:  :warning: Em desenvolvimento
 ## Descrição do projeto 
 
 <p align="justify">
