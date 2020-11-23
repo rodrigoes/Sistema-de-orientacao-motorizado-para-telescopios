@@ -1,0 +1,6 @@
+>>> Warning 202 "ControleTelescopio.c" Line 77(14,24): Variable never used:   diaSideral
+>>> Warning 202 "ControleTelescopio.c" Line 79(5,16): Variable never used:   DEC_sentido
+>>> Warning 202 "ControleTelescopio.c" Line 235(5,9): Variable never used:   cont
+      Memory usage:   ROM=26%      RAM=2% - 4%
+      0 Errors,  3 Warnings.
+Build Successful.

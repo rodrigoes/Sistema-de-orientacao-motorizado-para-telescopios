@@ -1,0 +1,104 @@
+
+ROM used:   8672/16384 (26%)
+            8672/16384 (26%) including unused fragments
+
+            2.1 Average locations per line
+            9.8 Average locations per statement
+
+RAM used:   34/2048 (2%) at main() level
+            87/2048 (4%) worst case
+
+Stack used: 9 worst case (9 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  805   569  64  ControleTelescopio.c
+  821     0   0  C:\Program Files (x86)\PICC\devices\18f4550.h
+  180    63   7  LCDKIT.c
+ 2229   257  29  C:\Program Files (x86)\PICC\drivers\math.h
+----- -----
+ 4035   889 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   0    1             @delay_ms1
+0     20   0    0             @const641
+0     64   0    3   463  4.3  lcd_read_byte
+0     32   0    1   134  2.2  lcd_send_nibble
+0     54   0    3   317  4.3  lcd_send_byte
+0     88   1    2   422  4.7  lcd_init
+0     34   0    4   186  5.5  lcd_gotoxy
+0     66   0    1   272  4.1  lcd_putc
+0    118   1   10             @FLT
+0     56   0    4             @SFTOI
+0     54   0    2             @ITOF
+0    242   1   11             @MULFF
+0    618   4   16             @ADDFF
+0    146   1    0   505  4.3  MAIN
+0    100   1    1   420  2.3  telaInicial
+0     18   0    0             @const867
+0     32   0    2             @PSTRINGC_662
+0      8   0    0             @const869
+0    256   1    0  1176  6.8  telaPolo
+0     18   0    0             @const875
+0     18   0    0             @const876
+0     18   0    0             @const878
+0     18   0    0             @const879
+0     18   0    0             @const880
+0    114   1    0   476  4.6  alinhamentoInicial
+0     18   0    0             @const882
+0     18   0    0             @const883
+0     18   0    0             @const884
+0    120   1    0   463  5.1  menu
+0     18   0    0             @const886
+0     18   0    0             @const887
+0   1064   6    1  1443  8.8  manual
+0     74   0    0   195  1.7  telaAcompanhamento
+0     18   0    0             @const890
+0     18   0    0             @const891
+0    138   1    0    69  3.1  inverterAH
+0   1510   9   28  4646  6.5  exibirAH
+0      4   0    0             @const910
+0     36   0    2             @PSTRINGR_662
+0      6   0    0             @const914
+0      6   0    0             @const915
+0      6   0    0             @const916
+0      6   0    0             @const918
+0     64   0    1    31  1.7  extraiDezena
+0     12   0    2    59  3.1  extraiUnidade
+0     26   0    0    82  2.8  receberNum
+0   2452  14    2  5742 13.5  automatico
+0      4   0    0             @const926
+0      6   0    0             @const927
+0      4   0    0             @const932
+0     40   0    3             @DIV88
+0     66   0    5             @DIV1616
+0     18   0    0             @const941
+0     30   0    5             @MUL1616
+0      8   0    0    50  1.5  desabilitaMatriz
+0    210   1    1  1458  4.4  varreMatriz
+0    162   1    1   911  6.2  varreTecladoManual
+0    110   1    1   675  3.4  motorAR_antih
+0    110   1    1   675  3.4  motorAR_h
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               24
+    Statements              889
+    Comments                517
+    Volume (V)              32519
+    Difficulty (D)          108.8
+    Effort to implement (E) 3537981
+    Time to implement (T)   54 hours, 36 minutes
+    Est Delivered Bugs (B)  8
+    Cyclomatic Complexity   78
+    Maintainability (MI)    114
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07FFE  8668  24096  
+
+
+

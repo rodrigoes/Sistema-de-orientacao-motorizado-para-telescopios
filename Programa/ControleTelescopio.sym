@@ -1,0 +1,242 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     leitura
+005     polo
+006     vel
+007     display
+008-00B AH
+00C-00F DEC
+010-013 AH_obj
+014-017 DEC_obj
+018-01B passo_AH
+01C-01F passo_DEC
+020     velRotacao
+021     DEC_sentido
+022     telaInicial.t
+022-025 atan2.y
+022-027 automatico.n
+022     lcd_init.i
+022     manual.cont
+023     lcd_init.@SCRATCH1
+023     varreTecladoManual.@SCRATCH1
+026-029 atan2.x
+028     automatico.sinal
+029     automatico.cursor
+02A     automatico.j
+02A-02D atan2.z
+02B     automatico.i
+02C     motorAR_antih.v
+02C     exibirAH.h
+02C     motorAR_h.v
+02C     automatico.@SCRATCH1
+02D     exibirAH.m
+02D     automatico.@SCRATCH2
+02E-02F @MUL1616.P1
+02E     exibirAH.s
+02E-02F @DIV1616.P1
+02E     @DIV88.P2
+02E.0   atan2.sign
+02E     varreMatriz.@SCRATCH1
+02F     atan2.quad
+02F     exibirAH.dh
+02F     @DIV88.P1
+030-031 @DIV1616.P1
+030     exibirAH.uh
+030-031 @MUL1616.P1
+030     @DIV88.@SCRATCH1
+031     exibirAH.dm
+032     exibirAH.um
+032     @DIV1616.@SCRATCH1
+032     @MUL1616.@SCRATCH1
+033     exibirAH.ds
+034     exibirAH.us
+035     exibirAH.t
+036     exibirAH.dd
+037     exibirAH.ud
+038     exibirAH.decd
+039     exibirAH.cd
+03A     exibirAH.md
+03B-03E exibirAH.temp
+03F-042 exibirAH.temp2
+043-046 @FLT.P1
+043     @PSTRINGC_662.@SCRATCH1
+043     exibirAH.@SCRATCH1
+043     @PSTRINGR_662.@SCRATCH1
+044     extraiUnidade.num
+044     extraiDezena.num
+044     @PSTRINGC_662.@SCRATCH2
+044     exibirAH.@SCRATCH2
+044     @PSTRINGR_662.@SCRATCH2
+045-048 @SFTOI.P1
+045     lcd_putc.c
+045     extraiUnidade.dezena
+045     exibirAH.@SCRATCH3
+046     @delay_ms1.P1
+046     lcd_gotoxy.x
+046     exibirAH.@SCRATCH4
+047-04A @MULFF.P1
+047-04A @ADDFF.P2
+047     lcd_gotoxy.y
+047-04A @FLT.P1
+047-048 @ITOF.P2
+047     exibirAH.@SCRATCH5
+048     lcd_gotoxy.address
+049     lcd_gotoxy.@SCRATCH1
+04A     lcd_send_byte.address
+04B-04E @MULFF.P1
+04B     lcd_send_byte.n
+04B-04E @ADDFF.P1
+04B     @FLT.@SCRATCH1
+04C     lcd_read_byte.low
+04C     lcd_send_byte.@SCRATCH1
+04C     @FLT.@SCRATCH2
+04D     lcd_read_byte.high
+04D     lcd_send_nibble.n
+04E     lcd_read_byte.@SCRATCH1
+04F     @MULFF.@SCRATCH1
+04F     @ADDFF.@SCRATCH1
+050     @MULFF.@SCRATCH2
+050     @ADDFF.@SCRATCH2
+051     @MULFF.@SCRATCH3
+051     @ADDFF.@SCRATCH3
+052     @ADDFF.@SCRATCH4
+053     @ADDFF.@SCRATCH5
+054     @ADDFF.@SCRATCH6
+055     @ADDFF.@SCRATCH7
+056     @ADDFF.@SCRATCH8
+F80     porta
+F80.1   coluna1
+F80.2   coluna2
+F80.3   coluna3
+F81     portb
+F81.4   linha1
+F81.5   linha2
+F81.6   linha3
+F81.7   linha4
+F82     portc
+F82.0   bobd
+F83     lcd
+F83     PSP_DATA
+F83     portd
+F84     porte
+F84.0   boba
+F84.1   bobb
+F84.2   bobc
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P3
+FE9-FEA @WRITE_PROGRAM_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  LCD_INIT_STRING.call
+000014  LCD_INIT_STRING.data
+000018  @const867.call
+00002A  @const869.call
+000032  @const875.call
+000044  @const876.call
+000056  @const878.call
+000068  @const879.call
+00007A  @const880.call
+00008C  @const882.call
+00009E  @const883.call
+0000B0  @const884.call
+0000C2  @const886.call
+0000D4  @const887.call
+0000E6  @const890.call
+0000F8  @const891.call
+00010A  @const910.call
+00010E  @const914.call
+000114  @const915.call
+00011A  @const916.call
+000120  @const918.call
+000126  @const926.call
+00012A  @const927.call
+000130  @const932.call
+000134  @const941.call
+000146  @delay_ms1
+00016E  lcd_send_nibble
+00018E  lcd_read_byte
+0001CE  lcd_send_byte
+000204  lcd_init
+00025C  desabilitaMatriz
+000264  lcd_gotoxy
+000286  lcd_putc
+0002C8  @PSTRINGC_662
+0002E8  telaInicial
+00034C  varreMatriz
+00041E  telaPolo
+00051E  alinhamentoInicial
+000590  @SFTOI
+0005C8  @ITOF
+0005FE  @ADDFF
+000868  @MULFF
+00095A  extraiDezena
+00099A  extraiUnidade
+0009A6  @PSTRINGR_662
+0009CA  @FLT
+000A40  exibirAH
+001026  inverterAH
+0010B0  varreTecladoManual
+001152  motorAR_antih
+0011C0  motorAR_h
+00122E  manual
+001656  receberNum
+001670  @DIV88
+001698  @DIV1616
+0016DA  @MUL1616
+0016F8  automatico
+00208C  menu
+002104  telaAcompanhamento
+00214E  @cinit1
+00214E  MAIN
+00218C  @cinit2
+10E0  menu
+020F  inicioPolo
+0B7C  inicioAuto
+
+Project Directory:
+    D:\FACENS\Semestre_09\TCC1\Programa\
+
+Project Files:
+    ControleTelescopio.c                                    [13-nov-20 13:00  CRC=860507AB]
+    C:\Program Files (x86)\PICC\devices\18f4550.h           [03-jul-13 13:29  CRC=A157EDDE]
+    LCDKIT.c                                                [12-mar-18 14:37  CRC=F3B2B11B]
+    C:\Program Files (x86)\PICC\drivers\math.h              [28-set-12 10:35  CRC=546412C9]
+
+Source signature=C3D7CC36
+
+Units:
+    ControleTelescopio (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      ControleTelescopio.err
+    INHX32:      ControleTelescopio.hex
+    Symbols:     ControleTelescopio.sym
+    List:        ControleTelescopio.lst
+    Debug/COFF:  ControleTelescopio.cof
+    Project:     ControleTelescopio.ccspjt
+    Call Tree:   ControleTelescopio.tre
+    Statistics:  ControleTelescopio.STA
