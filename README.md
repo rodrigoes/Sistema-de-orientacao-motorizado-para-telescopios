@@ -10,9 +10,3 @@ O objetivo do sistema de orientação motorizado para telescópios é reduzir o 
 
 ## Linguagens e ferramentas utilizadas :books:
 
-- [Teste](https://teste.org/): versão xx.xxx 
-
-- [Teste](https://teste.org/): versão xx.xxx 
-
-- [Teste](https://teste.org/): versão xx.xxx 
-
