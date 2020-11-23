@@ -11,3 +11,4 @@ O objetivo do sistema de orientação motorizado para telescópios é reduzir o 
 ## Linguagens e ferramentas utilizadas :books:
 
 :file_folder: Pasta dos codigos do projeto: [Programa](https://github.com/rodrigoes/Sistema-de-orientacao-motorizado-para-telescopios/tree/main/Programa): versão 1.0
+:page_with_curl: Arquivo da monografia do TCC: [Documento](https://github.com/rodrigoes/Sistema-de-orientacao-motorizado-para-telescopios/blob/main/TCC_Sistema_de_orientacao_motorizado_para_Telescopios.pdf): versão 1.0
